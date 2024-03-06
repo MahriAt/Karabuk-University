@@ -2,7 +2,7 @@
 int f (int n)
 {
     if (n<=0)
-        return n;
+        return 0;
     else
         return (f(n-1)+2);
 }
